@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"lato";
+    }
+    .navbar{
+        position: fixed;
+        background-color:#202942;
+        width: 100%;
+        height: 60px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 10;
+    } 
+    .name{
+        font-weight: bolder;
+        font-size: larger;
+        letter-spacing: 2px;
+        margin-left: 100px;
+    }
+    .navbar .list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 100px;
+    }
+    .navbar .list li a{
+        text-decoration-line: none;
+        color: white;
+        font-weight: bold;
+        padding: 0px 20px;
+}
+.navbar .list li a:hover{
+    color: rgb(41, 172, 128) ;
+}
+.navbar .list li a:active{
+    background-color: rgb(41, 172, 128);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.hero{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(41, 172, 128);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color:#202942;
+    position: relative;
+}
+.circle img{
+    width: 450px;
+    position: absolute;
+    left:-32px;
+    bottom: -140px;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    width: max-content;
+}
+.icon1::before{
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius:5px;
+}
+.icon1::after{
+    content: "";
+    width: 100px;
+    height:5px;
+    background-color:white;
+    border-radius:5px;
+}
+.section1{
+    color:#202942;
+}
+.h-portfolio{
+    text-align: center;
+}
+.icon2::before{
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color:#202942;
+    border-radius:5px;
+}
+.icon2::after{
+    content: "";
+    width: 100px;
+    height:5px;
+    background-color:#202942;
+    border-radius:5px;
+}
+.icon2 ,.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 150px;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.card1{
+    background-color:#a2a3a7;
+}
+.card2{
+    background-color:rgb(248, 142, 103) ;
+}
+.card3{
+    background-color:black ;
+}
+.card4{
+    background-color:blueviolet ;
+}
+.card5{
+    background-color:rgb(81, 139, 247);
+}
+.card6{
+    background-color: rgb(248, 39, 39);
+}
+.section2{
+    background-color: rgb(41, 172, 128);
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.h-about,.h-concat,.h-portfolio{
+    padding-top: 60px;
+}
+.pargraph{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pargraph p{
+    width: 300px;
+    line-height: 25px;
+    padding: 10px;
+}
+.btn{
+    background-color: rgb(41, 172, 128);
+    color: white;
+    padding: 15px  20px 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 30px auto 60px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(41, 172, 128) ;
+}
+.btn i{
+    padding: 0px 5px;
+}
+.section3{
+    width: 100%;
+    color:#202942;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form{
+    width:min-content;
+}
+.form input,.form textarea{
+border: none;
+border-bottom: 1px solid rgb(184, 182, 182);
+width: 500px;
+padding: 20px 0px;
+}
+.form input:focus,
+.form textarea:focus{
+    outline: none;
+    border-bottom: 2px solid  rgb(41, 172, 128) ;
+}
+.button{
+    width: 80px !important;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(41, 172, 128);
+    margin: 10px 0px 50px 0px;
+    cursor: pointer;
+}
+.button:hover{
+    color:  rgb(41, 172, 128);
+    background-color: white;
+    box-shadow: 0px 0px 1rem  rgb(41, 172, 128);
+}
+.location{
+    background-color: #202942;
+    color: white;
+    height: max-content;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    background-color: #060914;
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+h4{
+    padding-bottom: 15px;
+}
+.anchor{
+    color: rgb(41, 172, 128) ;
+}
+.fa-xl{
+    padding-right: 15px;
+    color: white;
+}
+.fa-xl:hover{
+    color: rgb(41, 172, 128) ;
+}
+.freelancer{
+    padding-top: 40px;
+}
+.freelancer p{
+    width:280px;
+}
+@media(max-width:600px)
+{
+    .navbar{
+        font-size: small;
+    }
+.pargraph{
+    width: 50%;
+    margin: 0px auto;
+}
+.form input,.form textarea{
+    width: 400px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+
+}
+.circle img{
+    width: 220px;
+    position: absolute;
+    left:-18px;
+    bottom: -70px;
+}
+h1{
+    font-size:large;
+}
+.hero p{
+    font-size: small;
+}
+.form input,.form textarea{
+    width: 250px;
+}
+.pargraph p{
+    width: 100%;
+}
+}
+@media(max-width:767px){
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar .list,.name{
+    margin: auto;
+}
+.location{
+    display: block;
+    font-size: small;
+    text-align: center;
+}
+.location p{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.navbar .list li a:active{
+    padding: 0px;
+}
+}
+@media (min-width:768px) and (max-width:992px)  {
+    .name{
+        margin-left: 30px;
+    }
+    .navbar .list{
+        margin-right: 30px;
+    }
+}
